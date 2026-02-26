@@ -1,10 +1,8 @@
 import React from "react";
-import { useLoaderData } from "react-router";
 import Book from "../Book/Book";
 
-const Books = () => {
-  const books = useLoaderData();
-  console.log(books);
+const Books = ({ books }) => {
+  // console.log(books);
   return (
     <div className="my-25">
       <h2 className="text-center text-4xl font-bold mb-9">Books</h2>
