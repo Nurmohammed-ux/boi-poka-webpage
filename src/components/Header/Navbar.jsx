@@ -17,7 +17,7 @@ const Navbar = () => {
         Listed Books
       </NavLink>
 
-      <NavLink to="/pages-to-read" className={navStyles}>
+      <NavLink to="/pagesToRead" className={navStyles}>
         Pages to Read
       </NavLink>
     </>
